@@ -3,6 +3,7 @@ body{
 }
 body p{
     text-align: justify;
+    color:gray;
 }
 h1{
     font-size: 60px;
@@ -16,7 +17,8 @@ h1{
     display: flex;
 }
 section{
-    margin-bottom:150px;
+    margin-bottom:100px;
+    margin-top: 20px;
 }
 .half-width{
     width: 50%;
@@ -37,10 +39,14 @@ section{
     
 }
 .about-me-area{
-    background-image: url(images/shapes/7.png);
+    background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
+    background-position: left;
 }
 #recipi-details{
+    text-align: center;
+}
+#recipi-details p{
     text-align: center;
 }
 .single-recipi{
@@ -48,10 +54,58 @@ section{
     margin-left:50px;
     box-shadow: 20px 20px 50px gray;
     border-radius: 20px;
-    text-align: center;
+    text-align:center;
 
 }
 .single-recipi img{
-    width:100%;
-    border-radius:20px;
+    width:350px;
+    height: 300px;
+    margin-top:30px;
+}
+.single-recipi p{
+    text-align: center;
+}
+#my-followers{
+   display: flex;
+   box-shadow: 10px 10px 30px gray;
+   width: 1239px;
+   height: 200px;
+   border-radius: 20px;
+   margin-left:5%;
+   background-color:white;
+   font-weight: 700;
+}
+.fan-followers{
+   margin: 0 auto;
+}
+.fan-followers small{
+    color: gray;
+}
+#cutomer-review{
+    text-align: center;
+}
+.review{
+    margin-left: 80px;
+}
+.review img{
+    border-radius: 100px;
+}
+.fa-star{
+   color:goldenrod;
+}
+.white-star{
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 256px;
+    width: 1350px;
+
+}
+footer small{
+    color: white;
+}
+footer p{
+    text-align: center;
 }
