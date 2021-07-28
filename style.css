@@ -1,0 +1,57 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+body p{
+    text-align: justify;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #777777;
+}
+.orange-color{
+    color:#FBA24F;
+}
+.flexible-area{
+    display: flex;
+}
+section{
+    margin-bottom:150px;
+}
+.half-width{
+    width: 50%;
+    margin-left:20px;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    padding: 15px 30px;
+    border-radius:20px;
+    color: white;
+    font-size: 700;
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+   
+    
+}
+.about-me-area{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#recipi-details{
+    text-align: center;
+}
+.single-recipi{
+    width:30%;
+    margin-left:50px;
+    box-shadow: 20px 20px 50px gray;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.single-recipi img{
+    width:100%;
+    border-radius:20px;
+}
